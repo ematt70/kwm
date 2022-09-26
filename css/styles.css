@@ -3,10 +3,23 @@ body {
    font-size: 14px; 
 }
 
+/** HEADER **/
+
+#header-nav {
+    background-color:silver;
+    border-radius: 0;
+    border: 0;
+}
+
 h1 {
     font-family: "Shadows Into Light Two";
     font-size: 22px;
     text-align: center;
     padding: 30px;
-    text-shadow: 3px 3px 10px; 
+    text-shadow: 3px 3px 10px;
+    color: black;
+}
+
+.navbar a:link, .navbar a:hover, .navbar a:focus, .navbar a:active {
+    text-decoration: none;
 }
