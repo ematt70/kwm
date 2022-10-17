@@ -3,10 +3,16 @@ body {
    font-size: 14px; 
 }
 
+header {
+   text-decoration: none;
+   color: black;
+   font-family: "Shadows Into Light Two";
+}
+
 /** HEADER **/
 
 #header-nav {
-    background-color:silver;
+    background-color:white;
     border-radius: 0;
     border: 0;
 }
@@ -15,11 +21,37 @@ h1 {
     font-family: "Shadows Into Light Two";
     font-size: 22px;
     text-align: center;
-    padding: 30px;
+    padding: 25px 0px 10px 0px;
     text-shadow: 3px 3px 10px;
     color: black;
 }
 
-.navbar a:link, .navbar a:hover, .navbar a:focus, .navbar a:active {
+#siteheader {
     text-decoration: none;
+    color: black;
+    text-align: center; 
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) 
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* / Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
 }
