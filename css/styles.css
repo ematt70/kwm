@@ -22,8 +22,16 @@ h1 {
     font-size: 22px;
     text-align: center;
     padding: 25px 0px 10px 0px;
-    text-shadow: 3px 3px 10px;
+    text-shadow: 2px 2px 5px;
     color: black;
+}
+
+#menuitem {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 0px 15px 0px 15px;
+    text-shadow: 1px 1px 3px;
 }
 
 #siteheader {
@@ -32,13 +40,19 @@ h1 {
     text-align: center; 
 }
 
+.container>nav {
+    display: grid;
+    justify-content: center;
+
+}
+
 
 /* Extra small devices (portrait phones, less than 576px) 
 // No media query for `xs` since this is the default in Bootstrap */
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-
+    
 }
 
 /* // Medium devices (tablets, 768px and up) */
