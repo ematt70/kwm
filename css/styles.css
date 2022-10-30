@@ -1,16 +1,16 @@
 * {
     box-sizing: border-box;
+    font-family: "Tinos";
   }
 
-body {
-   font-family: "Shadows Into Light Two";
+/* body {
    font-size: 14px; 
-}
+} */
 
 header {
    text-decoration: none;
    color: black;
-   font-family: "Shadows Into Light Two";
+   font-family: "Tinos";
 }
 
 /** HEADER **/
@@ -22,8 +22,6 @@ header {
 }
 
 h1 {
-    font-family: "Shadows Into Light Two";
-    font-size: 1.5em;
     text-align: center;
     padding: 25px 0px 10px 0px;
     text-shadow: 2px 2px 5px;
@@ -52,11 +50,31 @@ h1 {
 
 /** BODY **/
 
-#maincontent {
-    padding: 50px 0px 0px 0px;
-    width: 1920px;
-    height: 720px;
+.col {
+    height: 480px;
 }
+
+.maincontent {
+    padding: 50px 0px 0px 0px;
+    width: auto;
+}
+
+#content1 {
+    text-align: center;
+    font-size: .75em;
+}
+
+#content2 {
+    text-align: center;
+    font-size: 2.0em;
+}
+
+#content-image {
+    background-image: url("../images/Kim.jpg");
+    opacity: 0.25;
+    height: auto;
+}
+#
 /* Extra small devices (portrait phones, less than 576px) 
 // No media query for `xs` since this is the default in Bootstrap */
 
