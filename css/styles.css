@@ -54,6 +54,8 @@ h1 {
 
 #maincontent {
     padding: 50px 0px 0px 0px;
+    width: 1920px;
+    height: 720px;
 }
 /* Extra small devices (portrait phones, less than 576px) 
 // No media query for `xs` since this is the default in Bootstrap */
