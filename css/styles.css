@@ -85,7 +85,7 @@ header {
 
 #image {
     /* padding: 50px 0px 0px 0px; */
-    width: 1225px;
+    width: 1200px;
     background-image: url("../images/kim-background.jpg");
     background-repeat: no-repeat;
     /* opacity: 0.25; */
@@ -114,10 +114,32 @@ header {
 
 /* / Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    #image {
+        /* padding: 50px 0px 0px 0px; */
+        width: 800px;
+        background-image: url("../images/kim-background-lg.jpg");
+        background-repeat: no-repeat;
+        /* opacity: 0.25; */
+        height: 850px;
+    }
 
+    .content-over-image {
+        padding: 50px 0px 0px 0px;
+        width: 800px;
+        background:rgba(255,255,255,.25);
+        height: 800px;
+    }
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+    #image {
+        /* padding: 50px 0px 0px 0px; */
+        width: 1200px;
+        background-image: url("../images/kim-background.jpg");
+        background-repeat: no-repeat;
+        /* opacity: 0.25; */
+        height: 850px;
+    }
 
 }
