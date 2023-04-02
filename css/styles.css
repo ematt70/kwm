@@ -21,26 +21,30 @@ header {
     border: 0;
 }
 
-h1 {
+#siteheader {
     text-align: center;
-    padding: 25px 0px 10px 0px;
+    /* padding: 25px 0px 10px 0px; */
     text-shadow: 2px 2px 5px;
     color: black;
+    font-size: 3.5em;
+    text-decoration: none;
 }
 
 #menuitem {
     text-decoration: none;
     color: black;
     text-align: center;
-    padding: 0px 15px 0px 15px;
+    padding: 0px 20px 0px 20px;
     text-shadow: 1px 1px 3px;
+    font-size: 1.25em;
 }
 
-#siteheader {
+/* #siteheader {
     text-decoration: none;
     color: black;
     text-align: center; 
-}
+    font-size: 5em;
+} */
 
 .container > nav {
     display: grid;
@@ -49,50 +53,55 @@ h1 {
 
 /** BODY **/
 
-/*.col {
-    height: 480px;
-}*/
+/* .col {
+
+} */
+
+/* .maincontent {
+
+} */
 
 .row {
-    height: 480pt;
-    position: relative;
+    padding: 30px 0px 0px 0px;
+    width: 1140px;
+    height: 671px;
 }
 
-.maincontent {
-    padding: 30px 0px 0px 0px;
-    width: auto;
+.col {
+    padding: 50px 0px 0px 0px;
+    width: 1140px;
+    height: 641px;
+
 }
 
 #content1 {
     text-align: center;
-    font-size: .75em;
-    opacity: 1;
+    font-size: 1em;
+    color: black;
+
 }
 
 #content2 {
     text-align: center;
     font-size: 2.0em;
-    opacity: 1;
+    color: black;
+    font-weight: bold;
 }
 
-#content-image {
-    background-image: url("../images/kim-background-large-desktop.jpg");
-    background-size: contain;
+#image {
+    /* padding: 50px 0px 0px 0px; */
+    width: 1200px;
+    background-image: url("../images/kim-alt-background.jpg");
     background-repeat: no-repeat;
-    background-position: center;
-    object-fit: cover;
-    opacity: 0.25;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
+    /* opacity: 0.25; */
+    height: 641px;
 }
 
-#content-text {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
+#content-over-image {
+    /* padding: 50px 0px 0px 0px; */
+    width: 1200px;
+    background:rgba(255,255,255,.25);
+    height: 1200px;
 }
 
 
@@ -111,10 +120,39 @@ h1 {
 
 /* / Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    /* .row {
+        padding: 30px 0px 0px 0px;
+        width: 800px;
+        height: 583px;
+    }
+    
+    image {
+        /* padding: 50px 0px 0px 0px; */
+/*         width: 800px;
+        background-image: url("../images/kim-background-lg.jpg");
+        background-repeat: no-repeat; */
+        /* opacity: 0.25; */
+        /*height: 533px;
+    }
 
+    .content-over-image {
+        padding: 50px 0px 0px 0px;
+        width: 1200px;
+        background:rgba(255,255,255,.25);
+        height: 80
+    0px;
+    } */
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+    /* #image { */
+        /* padding: 50px 0px 0px 0px; */
+       /*  width: 1200px;
+        background-image: url("../images/kim-background.jpg");
+        background-repeat: no-repeat; */
+        /* opacity: 0.25; */
+        /* height: 850px;
+    } */
 
 }
